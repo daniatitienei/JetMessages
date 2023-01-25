@@ -1,0 +1,1 @@
+/Users/atitieneidaniel/AndroidStudioProjects/JetMessages/buildSrc/build/classes/kotlin/main/Dependencies.class:/Users/atitieneidaniel/AndroidStudioProjects/JetMessages/buildSrc/build/classes/kotlin/main/Testing.class
