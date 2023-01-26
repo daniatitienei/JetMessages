@@ -7,4 +7,5 @@ object Dependencies {
     const val composeUiGraphics = "androidx.compose.ui:ui-graphics"
     const val composeUiToolingPreview = "androidx.compose.ui:ui-tooling-preview"
     const val composeMaterial3 = "androidx.compose.material3:material3"
+    const val icons = "androidx.compose.material:material-icons-extended:1.3.1"
 }

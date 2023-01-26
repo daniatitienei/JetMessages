@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.atitienei_daniel.jetmessages"
-    compileSdk = 33
+    namespace = ConfigData.namespace
+    compileSdk = ConfigData.compileSdk
 
     defaultConfig {
-        applicationId = "com.atitienei_daniel.jetmessages"
-        minSdk = 29
-        targetSdk = 33
-        versionCode = 1
-        versionName = "1.0"
+        applicationId = ConfigData.applicationId
+        minSdk = ConfigData.minSdk
+        targetSdk = ConfigData.targetSdk
+        versionCode = ConfigData.versionCode
+        versionName = ConfigData.versionName
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -40,7 +40,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.3.2"
+        kotlinCompilerExtensionVersion = ConfigData.kotlinCompilerExtensionVersion
     }
     packagingOptions {
         resources {
@@ -51,6 +51,8 @@ android {
 
 dependencies {
 
+    implementation(project(":core-design"))
+    implementation(project(":feature-messages"))
     implementation(Dependencies.coreKtx)
     implementation(Dependencies.lifecycleRuntimeKtx)
     implementation(Dependencies.activityCompose)

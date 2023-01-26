@@ -1,4 +1,4 @@
-package com.atitienei_daniel.jetmessages.ui.theme
+package com.atitienei_daniel.core_design
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
